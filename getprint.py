@@ -1,8 +1,10 @@
 # Hints:
-#Use __init__ method to construct some parameters
+
+#try to use __init__ method to construct some parameters
 
 
 class InputOutString(object):
+    
     def __init__(self,word):
         self.word = ""
 
@@ -13,5 +15,7 @@ class InputOutString(object):
         print self.word.upper()
 
 strObj = InputOutString()
+
 strObj.getString()
+
 strObj.printString()
