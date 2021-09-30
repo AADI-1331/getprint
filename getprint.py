@@ -3,14 +3,14 @@
 
 
 class InputOutString(object):
-    def __init__(self):
-        self.s = ""
+    def __init__(self,word):
+        self.word = ""
 
     def getString(self):
-        self.s = raw_input()
+        self.word = raw_input()
 
     def printString(self):
-        print self.s.upper()
+        print self.word.upper()
 
 strObj = InputOutString()
 strObj.getString()
